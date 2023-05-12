@@ -1,0 +1,125 @@
+.Container {
+  /* border: 1px solid white; */
+  height: 769px;
+  width: 317px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #1a1b21;
+}
+.ImagePart > img {
+  border-radius: 10px 10px 0px 0px;
+  width: 317px;
+  height: 317px;
+}
+.MainPart {
+  width: 247px;
+  color: #dcdcdc;
+  line-height: 15.36px;
+  margin-top: 12px;
+}
+.InfoPart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 0;
+}
+.InfoPart > h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+}
+.designatonTitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 5px;
+  font-size: 12.8px;
+
+  text-align: center;
+  color: #f3bf99;
+}
+.websiteName {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  margin-top: 7px;
+  text-align: center;
+
+  color: #f5f5f5;
+}
+.ButtonPart {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.btn > button {
+  width: 115px;
+  height: 34px;
+  margin: 5px;
+  border: 0;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn > img {
+  height: 13.33px;
+  width: 13.33px;
+}
+.AboutPart > h2,
+.InterestPart > h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+}
+.AboutPart {
+  margin-top: 20px;
+}
+.AboutPart > p,
+.InterestPart > p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* text-align: justify; */
+}
+.footerSection {
+  height: 64px;
+  width: 317px;
+  background-color: #161619;
+  border-radius: 0px 0px 10px 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.mainImg {
+  height: 30px;
+  width: 30px;
+  background: #918e9b;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* margin: auto; */
+  border-radius: 5px;
+}
+.mainImg > img {
+  height: 25px;
+  width: 25px;
+}
